@@ -20,19 +20,19 @@ class MyForm(QDialog):
     def dispSelected(self):
         selected1 = ""
         selected2 = ""
-        if self.ui.radioButtonMedium.isChecked() == True:
+        if self.ui.radioButtonMedium.isChecked():
             selected1 = "Medium"
-        if self.ui.radioButtonLarge.isChecked() == True:
+        if self.ui.radioButtonLarge.isChecked():
             selected1 = "Large"
-        if self.ui.radioButtonXL.isChecked() == True:
+        if self.ui.radioButtonXL.isChecked():
             selected1 = "Extra Large"
-        if self.ui.radioButtonXXL.isChecked() == True:
+        if self.ui.radioButtonXXL.isChecked():
             selected1 = "Extra Extra Large"
-        if self.ui.radioButtonDebitCard.isChecked() == True:
+        if self.ui.radioButtonDebitCard.isChecked():
             selected2 = "Debit/Credit Card"
-        if self.ui.radioButtonNetBanking.isChecked() == True:
+        if self.ui.radioButtonNetBanking.isChecked():
             selected2 = "NetBanking"
-        if self.ui.radioButtonCashOnDelivery.isChecked() == True:
+        if self.ui.radioButtonCashOnDelivery.isChecked():
             selected2 = "Cash On Delivery"
         self.ui.labelSelected.setText("Chosen shirt size is " + selected1 + " and payment method as " + selected2)
 
