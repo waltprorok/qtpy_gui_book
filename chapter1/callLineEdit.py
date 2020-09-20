@@ -2,7 +2,7 @@
 
 import sys
 from PyQt5.QtWidgets import QDialog, QApplication
-from Chapter1.demoLineEdit import *
+from demoLineEdit import *
 
 
 class MyForm(QDialog):

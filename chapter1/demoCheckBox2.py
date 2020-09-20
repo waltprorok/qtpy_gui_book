@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-/home/tron/PycharmProjects/GUI
 
 # Form implementation generated from reading ui file 'demoCheckBox2.ui'
 #

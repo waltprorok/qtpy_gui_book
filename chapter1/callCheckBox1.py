@@ -1,7 +1,7 @@
 import sys
 from PyQt5.QtWidgets import QDialog
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton
-from demoCheckBox1 import *
+from .demoCheckBox1 import *
 
 
 class MyForm(QDialog):
