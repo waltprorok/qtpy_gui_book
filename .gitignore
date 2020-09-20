@@ -1,8 +1,7 @@
 venv/
 .idea
-chapter1/__pycache__
-chapter1/__pycache__
-chapter2/__pycache__
+qtpy_gui_book/chapter1/__pycache__
+qtpy_gui_book/chapter2/__pycache__
 chapter3/__pycache__
 chapter4/__pycache__
 chapter5/__pycache__
