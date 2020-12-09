@@ -13,7 +13,7 @@ class Ui_Dialog(object):
         Dialog.setObjectName("Dialog")
         Dialog.resize(621, 425)
         self.label = QtWidgets.QLabel(Dialog)
-        self.label.setGeometry(QtCore.QRect(320, 10, 66, 17))
+        self.label.setGeometry(QtCore.QRect(260, 10, 66, 17))
         font = QtGui.QFont()
         font.setBold(True)
         font.setWeight(75)
